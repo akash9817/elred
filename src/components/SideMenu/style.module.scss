@@ -1,0 +1,30 @@
+.sideSection{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    padding: 18px;
+    height: 100%;
+    .sideLogo{
+        width: 30px;
+        height: 30px;
+    }
+    .active{
+        background-color: #fddcdc;
+        font-weight: 600;
+        color: #781212 !important;
+        padding: 15px 5px;
+        border-radius: 6px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        color: #cccccc;
+        margin-bottom: 20px;
+        .sideMenuIcon{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+}

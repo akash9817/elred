@@ -1,0 +1,36 @@
+.cartMenuSection{
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+    .cartMenuSeeAll{
+        border-top: 2px dashed #b5b1b1;
+        padding: 20px;
+        margin: 0 20px;
+    }
+    .otherInstruction{
+        background-color: #eceff6;
+        padding: 10px 20px;
+    }
+    .cartBillInfo{
+        padding: 20px;
+    }
+    .address{
+        margin-top: 20px;
+        padding: 15px 0;
+        border-bottom: 2px dashed #b5b1b1;
+        span{
+            color: #909090;
+        }
+    }
+    .cartTotal{
+        margin : 15px 0;
+        border-bottom: 2px dashed #b5b1b1;
+        padding-bottom: 10px;
+        .cartTotalLabel{
+            display: flex;
+            justify-content: space-between;
+            color: #b5b1b1;
+            margin-bottom: 10px;
+        }
+    }
+}

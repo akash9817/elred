@@ -1,0 +1,32 @@
+.subSection {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  margin-top: 20px;
+  .sideLogo {
+    border: 1px solid #b5b1b1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .subCategoryCard {
+    width: 130px;
+    height: 80px;
+    img {
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    h6 {
+      font-size: 12px;
+    }
+  }
+}
